@@ -41,7 +41,7 @@ def sample_df(n_samples, max_dist=None):
 
 #----------------------------------------------------------------------------------------------------
 # make flow
-n_flows = 960
+n_flows = 10000
 
 def make_normalizing_flow(i):
 
@@ -58,7 +58,7 @@ def make_normalizing_flow(i):
     n_dim = 6
     n_units = 4
 
-    n_epochs = 320
+    n_epochs = 32
     batch_size = 1024
 
     n_steps = n_samples * n_epochs // batch_size
