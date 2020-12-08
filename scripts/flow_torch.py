@@ -458,7 +458,7 @@ def train_flow(flow, data, optimizer=None, batch_size=32,
             loss_history.append(loss.item())
 
             # save results for video
-            torch.save(flow.state_dict(), f'plummer_flow_video_' + str(i) + '.pth')
+            #torch.save(flow.state_dict(), f'plummer_flow_video_' + str(i) + '.pth')
 
             callback(i, n_steps, loss_history, opt)
             i += 1
