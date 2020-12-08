@@ -15,6 +15,6 @@ See `notebooks/plummer_sphere_example.ipynb` for an explanation of the method
 and a demonstration with a simple toy system - the Plummer Sphere with
 isotropic velocities.
 
-This version is implemented in Pytorch 1.x. There is a matching Tensorflow
+This version is implemented in Pytorch 1.7 and Python 3.8. There is a matching Tensorflow
 implementation at
 [gregreen/deep-potential](https://github.com/gregreen/deep-potential).
