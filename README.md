@@ -17,4 +17,4 @@ isotropic velocities.
 
 This version is implemented in Pytorch 1.x. There is a matching Tensorflow
 implementation at
-[tingyuansen/deep-potential](https://github.com/gregreen/deep-potential).
+[gregreen/deep-potential](https://github.com/gregreen/deep-potential).
